@@ -120,7 +120,7 @@ export function Hero() {
     maxWidth: "720px",
   }}
 >
-  Global leaders in functional medicine and nutrition
+  Peduli Kesehatan Itu Bukan Cuma Tugas Dokter.
 </h1>
 
 <p
@@ -135,8 +135,7 @@ export function Hero() {
     marginTop: "20px",
   }}
 >
-  The only integrative nutritional therapy certification combining
-  functional blood work, nutrition and business mentorship.
+ Kesehatan bukan hanya tanggung jawab dokter. Di sekolah, kita semua punya peran untuk saling peduli. UKS hadir sebagai ruang edukasi dan pertolongan pertama, karena sekolah hebat lahir dari siswa yang sehat.
 </p>
       </div>
 

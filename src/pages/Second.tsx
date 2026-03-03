@@ -68,7 +68,7 @@ const SLIDES: SlideData[] = [
   },
 ];
 
-const HEADING = "Comprehensive, evidence-based education across the full spectrum of health conditions.";
+const HEADING = "Program kesehatan terstruktur dan kegiatan berdampak yang dijalankan oleh UKS dan PMR.";
 
 // ─── Hook: Scroll Into View ───────────────────────────────────────────────────
 
@@ -305,7 +305,7 @@ export default function HealthEducationSection() {
             }}
             aria-label="Browse all courses"
           >
-            All Courses
+            Lihat Program
             <span
               className="text-base opacity-60 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0.5"
               aria-hidden="true"
