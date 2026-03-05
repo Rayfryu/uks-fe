@@ -4,6 +4,8 @@ import { Hero } from './pages/Hero'
 import Second from './pages/Second'
 import Third from './pages/Third'
 import Four from './pages/Four'
+import Five from './pages/Five'
+import Six from './pages/Six'
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       </section>
       <section className="snap-start min-h-screen">
         <Second />
+        <Five />
+        <Six />
         <Third />
         <Four />
       </section>
