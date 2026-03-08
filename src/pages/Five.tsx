@@ -21,7 +21,7 @@ const HeroSection: React.FC = () => {
           "
           style={{ fontFamily: "'Georgia', 'Times New Roman', serif" }}
         >
-          Redefining healthcare education for a healthier world
+          Bersama PMR dan UKS kita wujudkan generasi sehat dan cerdas!
         </h1>
       </div>
 

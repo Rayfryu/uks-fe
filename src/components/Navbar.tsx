@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
-const navLinks = ["Courses", "Events", "Testimonials", "Articles", "FAQ"];
-const leftLinks = ["About", "Contact"];
+const navLinks = ["Program", "Misi", "Articles", "Keunggulan"];
+const leftLinks = ["Tentang", "Footer"];
 
 // Arrow: curves down then turns right (corner-down-right)
 const LoginIcon = () => (
@@ -156,7 +156,7 @@ export default function IOHNavbar() {
               aria-label="Student Login"
             >
               <LoginIcon />
-              Student Login
+              Admin Login
             </a>
           </div>
 
@@ -262,11 +262,11 @@ export default function IOHNavbar() {
                 fontWeight: 500,
                 textDecoration: "none",
               }}
-              aria-label="Student Login"
+              aria-label="Admin Login"
               onClick={() => setMenuOpen(false)}
             >
               <LoginIcon />
-              Student Login
+              Admin Login
             </a>
           </div>
         </>

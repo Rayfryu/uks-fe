@@ -8,22 +8,22 @@ interface Section {
 
 const sections: Section[] = [
   {
-    label: "Scale",
-    title: "46,500,000",
+    label: "Kesadaran Kesehatan",
+    title: "Siswa Sehat",
     description:
-      "People died last year from preventable diseases. Up to 75% of all deaths are preventable with the right approach — yet access to knowledge, care, and early intervention remains limited.",
+      "Melalui kegiatan UKS dan PMR, siswa belajar pentingnya menjaga kesehatan diri dan lingkungan. Kebiasaan sederhana seperti mencuci tangan, berolahraga, dan mengonsumsi makanan bergizi dapat memberikan dampak besar bagi kesehatan sehari-hari.",
   },
   {
-    label: "Reality",
-    title: "More than 8 out of 10",
+    label: "Pertolongan Pertama",
+    title: "Siap Membantu",
     description:
-      "People now live with at least one long-term health condition — the highest level in recorded history. This isn't because people don't care about their health. It's because modern healthcare is not designed to protect it.",
+      "Anggota PMR dilatih untuk memberikan pertolongan pertama ketika terjadi kecelakaan atau keadaan darurat di sekolah. Mulai dari menangani luka ringan hingga merespons situasi tak terduga, keterampilan ini membantu menciptakan lingkungan sekolah yang lebih aman.",
   },
   {
-    label: "Access",
-    title: "1 in 3",
+    label: "Lingkungan Sekolah",
+    title: "Sekolah Sehat",
     description:
-      "People globally have no access to essential health services. The gap between those who can afford prevention and those who cannot grows wider every year — a systemic failure we refuse to accept.",
+      "UKS dan PMR mendorong siswa untuk peduli terhadap lingkungan sekitar. Kelas yang bersih, pengelolaan sampah yang baik, serta kampanye kesehatan membantu membangun budaya sekolah yang sehat dan saling mendukung.",
   },
 ];
 

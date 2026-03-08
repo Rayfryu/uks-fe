@@ -6,6 +6,7 @@ import Third from './pages/Third'
 import Four from './pages/Four'
 import Five from './pages/Five'
 import Six from './pages/Six'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Six />
         <Third />
         <Four />
+      <Footer />
       </section>
     </div>
   )

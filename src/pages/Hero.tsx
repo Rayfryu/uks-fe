@@ -27,7 +27,7 @@ export function Hero() {
         const data: HeroStats = await response.json();
         setStats(data);
       } catch {
-        setStats({ course_units: 966, countries_educated: 46, laboratory_tests: 22 });
+        setStats({ course_units: 44, countries_educated: 39, laboratory_tests: 10 });
       } finally {
         setIsLoading(false);
       }
@@ -36,10 +36,10 @@ export function Hero() {
   }, []);
 
   const statItems = [
-    { label: "Course Units", value: stats.course_units },
-    { label: "Countries Educated", value: stats.countries_educated },
-    { label: "Laboratory Tests", value: stats.laboratory_tests },
-  ];
+    { label: "Petugas", value: stats.course_units },
+    { label: "Prestasi", value: stats.laboratory_tests },
+    { label: "Jumlah Pasien", value: stats.countries_educated },
+];
 
   return (
     <section
